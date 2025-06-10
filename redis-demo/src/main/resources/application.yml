@@ -1,0 +1,17 @@
+# 应用服务 WEB 访问端口
+server:
+    port: 8080
+# 支持 swagger3
+spring:
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
+swagger:
+    enable: true
+    application-name: ${spring.application.name}
+    application-version: 1.0
+    application-description: 描述
+
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
