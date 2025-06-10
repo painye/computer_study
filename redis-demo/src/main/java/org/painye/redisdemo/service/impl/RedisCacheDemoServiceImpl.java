@@ -1,10 +1,11 @@
 package org.painye.redisdemo.service.impl;
 
-import org.painye.redisdemo.service.ICacheDemoService;
 import org.redisson.api.RedissonClient;
+import org.springframework.cache.support.AbstractValueAdaptingCache;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.concurrent.Callable;
 
 /**
  * @author painye
@@ -12,25 +13,58 @@ import javax.annotation.Resource;
  * @create 2025-06-10 13:28
  */
 @Service
-public class RedisCacheDemoServiceImpl implements ICacheDemoService {
+public class RedisCacheDemoServiceImpl extends AbstractValueAdaptingCache{
 
     @Resource
     private RedissonClient redissonClient;
 
-    @Override
-    public boolean addStringEntry(String key, String value) {
-        redissonClient.getBucket(key).set(value);
-        return true;
+    protected RedisCacheDemoServiceImpl() {
+        super(false);
     }
 
     @Override
-    public boolean removeKey(String key) {
-        redissonClient.getBucket(key).delete();
-        return false;
+    public String getName() {
+        return "redis-cache";
     }
 
     @Override
-    public Object getEntry(String key) {
-        return redissonClient.getBucket(key).get();
+    public Object getNativeCache() {
+        return null;
+    }
+
+    @Override
+    public <T> T get(Object key, Callable<T> valueLoader) {
+        Object value = redissonClient.getBucket((String) key).get();
+        if (value != null ) {
+            return (T) value;
+        }
+        try {
+           value =  valueLoader.call();
+           redissonClient.getBucket((String) key).set(value);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return (T) value;
+    }
+
+    @Override
+    public void put(Object key, Object value) {
+        redissonClient.getBucket((String) key).set(value);
+    }
+
+    @Override
+    public void evict(Object key) {
+        redissonClient.getBucket((String) key).delete();
+    }
+
+    @Override
+    public void clear() {
+        redissonClient.getKeys().flushdb();
+    }
+
+    @Override
+    protected Object lookup(Object key) {
+        Object value = redissonClient.getBucket((String) key).get();
+        return value;
     }
 }

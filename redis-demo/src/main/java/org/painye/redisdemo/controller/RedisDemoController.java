@@ -1,6 +1,8 @@
 package org.painye.redisdemo.controller;
 
-import org.painye.redisdemo.service.ICacheDemoService;
+import org.springframework.cache.Cache;
+import org.springframework.cache.support.AbstractValueAdaptingCache;
+import org.springframework.cache.support.SimpleValueWrapper;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -15,7 +17,7 @@ import javax.annotation.Resource;
 public class RedisDemoController {
 
     @Resource
-    private ICacheDemoService cacheDemoService;
+    private AbstractValueAdaptingCache cacheDemoService;
 
     @GetMapping("/hello")
     public String hello() {
@@ -23,18 +25,23 @@ public class RedisDemoController {
     }
 
     @PostMapping("/put")
-    public boolean putEntry(@RequestParam("key") String key, @RequestParam("value") String value) {
-        return cacheDemoService.addStringEntry(key, value);
+    public void putEntry(@RequestParam("key") String key, @RequestParam("value") String value) {
+        cacheDemoService.put(key, value);
     }
 
     @GetMapping("/get")
+    @ResponseBody
     public Object getEntry(@RequestParam("key") String key) {
-        return cacheDemoService.getEntry(key);
+        Cache.ValueWrapper valueWrapper = cacheDemoService.get(key);
+        if (valueWrapper == null) {
+            return String.format("没有找到[%s]对应的value", key);
+        }
+        return valueWrapper.get();
     }
 
     @DeleteMapping("/remove")
-    public boolean removeEntry(@RequestParam("key") String key) {
-        return cacheDemoService.removeKey(key);
+    public void removeEntry(@RequestParam("key") String key) {
+        cacheDemoService.evict(key);
     }
 
 }
