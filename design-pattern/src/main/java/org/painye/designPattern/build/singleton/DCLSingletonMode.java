@@ -1,11 +1,15 @@
 package org.painye.designPattern.build.singleton;
 
+import java.io.Serializable;
+
 /**
  * @author painye
  * @Description 双重检查锁机制单例模式
  * @create 2025-06-11 13:32
  */
-public class DCLSingletonMode {
+public class DCLSingletonMode implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     /**
      * 这里需要使用禁止指令重排序的关键字volatile，保证创建实例过程是原子操作
@@ -60,5 +64,13 @@ public class DCLSingletonMode {
                 instance = null;    // 2、实例置空
             }
         }
+    }
+
+    /**
+     * 防止反序列化破坏单例的唯一性
+     * @return 单例
+     */
+    public Object readResolve(){
+        return instance;
     }
 }

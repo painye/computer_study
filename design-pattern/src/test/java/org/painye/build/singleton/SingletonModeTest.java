@@ -7,6 +7,7 @@ import org.painye.designPattern.build.singleton.HungrySingletonMode;
 import org.painye.designPattern.build.singleton.LazySingletonMode;
 import org.painye.designPattern.build.singleton.StaticInnerClassSingletonMode;
 
+import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -55,6 +56,23 @@ public class SingletonModeTest {
         declaredConstructor.setAccessible(true);
         boolean flag = declaredConstructor.newInstance() == DCLSingletonMode.getInstance() ;
         System.out.println("反射后创建的实例和单例是同一个嘛？"+flag);
+    }
+
+    @Test
+    public void testReSerialize() throws IOException, ClassNotFoundException {
+        DCLSingletonMode instance = DCLSingletonMode.getInstance();
+        // 序列化
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(instance);
+        oos.close();
+        byte[] bytes = baos.toByteArray();
+        // 反序列化
+        ByteArrayInputStream bais = new ByteArrayInputStream(bytes);
+        ObjectInputStream ois = new ObjectInputStream(bais);
+        Object o = ois.readObject();
+        boolean flag = o==instance;
+        System.out.println("实例化与反实例化的对象是同一个嘛？"+flag);
     }
 
 }
