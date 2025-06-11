@@ -7,6 +7,8 @@ import org.painye.designPattern.build.singleton.HungrySingletonMode;
 import org.painye.designPattern.build.singleton.LazySingletonMode;
 import org.painye.designPattern.build.singleton.StaticInnerClassSingletonMode;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -44,6 +46,15 @@ public class SingletonModeTest {
         } catch (InterruptedException e) {
             System.out.println(e.toString());
         }
+    }
+
+    @Test
+    public void testReflect() throws InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
+        Class clazz = DCLSingletonMode.class;
+        Constructor declaredConstructor = clazz.getDeclaredConstructor();
+        declaredConstructor.setAccessible(true);
+        boolean flag = declaredConstructor.newInstance() == DCLSingletonMode.getInstance() ;
+        System.out.println("反射后创建的实例和单例是同一个嘛？"+flag);
     }
 
 }

@@ -12,8 +12,17 @@ public class DCLSingletonMode {
      */
     private static volatile DCLSingletonMode instance;
 
+    /**
+     * 防止重复初始化的标记
+     */
+    private static Boolean initialized = false;
+
     private DCLSingletonMode() {
+        if (initialized) {
+            throw new RuntimeException(DCLSingletonMode.class+"类只允许实例化一次");
+        }
         init();
+        initialized = true;
     }
 
     /**
@@ -38,6 +47,18 @@ public class DCLSingletonMode {
             System.out.println("初始化........");
         } catch (Exception e) {
             System.out.println(e.toString());
+        }
+    }
+
+    /**
+     * 重置单例实例
+     */
+    public static void reinit() {
+        if (initialized) { //如果本来就是未初始化状态就不用重置了
+            synchronized (DCLSingletonMode.class) {
+                initialized = false; // 1、将初始化标志重置
+                instance = null;    // 2、实例置空
+            }
         }
     }
 }
