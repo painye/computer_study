@@ -1,5 +1,10 @@
 package org.painye.designPattern.build.factory.simpleFactor;
 
+import org.painye.designPattern.build.factory.ItalianGun;
+import org.painye.designPattern.build.factory.Tank;
+import org.painye.designPattern.build.factory.Uzi;
+import org.painye.designPattern.build.factory.Weapon;
+
 /**
  * @author painye
  * @Description 简单工厂模式实现一个武器加工厂

@@ -1,4 +1,4 @@
-package org.painye.designPattern.build.factory.simpleFactor;
+package org.painye.designPattern.build.factory;
 
 /**
  * @author painye
