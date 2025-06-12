@@ -1,9 +1,9 @@
 package org.painye.designPattern.build.factory.simpleFactor;
 
-import org.painye.designPattern.build.factory.ItalianGun;
-import org.painye.designPattern.build.factory.Tank;
-import org.painye.designPattern.build.factory.Uzi;
-import org.painye.designPattern.build.factory.Weapon;
+import org.painye.designPattern.build.factory.product.impl.ItalianGun;
+import org.painye.designPattern.build.factory.product.impl.Tank;
+import org.painye.designPattern.build.factory.product.impl.Uzi;
+import org.painye.designPattern.build.factory.product.Weapon;
 
 /**
  * @author painye

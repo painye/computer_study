@@ -1,7 +1,7 @@
 package org.painye.designPattern.build.factory.factoryMethod;
 
-import org.painye.designPattern.build.factory.Tank;
-import org.painye.designPattern.build.factory.Weapon;
+import org.painye.designPattern.build.factory.product.impl.Tank;
+import org.painye.designPattern.build.factory.product.Weapon;
 
 /**
  * @author painye

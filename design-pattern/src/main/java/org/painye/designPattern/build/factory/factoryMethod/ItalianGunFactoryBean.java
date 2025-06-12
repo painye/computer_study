@@ -1,6 +1,6 @@
 package org.painye.designPattern.build.factory.factoryMethod;
 
-import org.painye.designPattern.build.factory.ItalianGun;
+import org.painye.designPattern.build.factory.product.impl.ItalianGun;
 
 /**
  * @author painye

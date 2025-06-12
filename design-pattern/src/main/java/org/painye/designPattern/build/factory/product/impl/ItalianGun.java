@@ -1,4 +1,6 @@
-package org.painye.designPattern.build.factory;
+package org.painye.designPattern.build.factory.product.impl;
+
+import org.painye.designPattern.build.factory.product.Weapon;
 
 /**
  * @author painye
