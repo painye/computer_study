@@ -1,4 +1,4 @@
-package org.painye.designPattern.Structural.adapter;
+package org.painye.designPattern.structural.adapter;
 
 /**
  * @author painye

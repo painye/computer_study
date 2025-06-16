@@ -1,6 +1,4 @@
-package org.painye.designPattern.Structural.adapter;
-
-import java.io.IOException;
+package org.painye.designPattern.structural.adapter;
 
 /**
  * @author painye
