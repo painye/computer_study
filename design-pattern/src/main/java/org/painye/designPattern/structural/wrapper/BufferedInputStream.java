@@ -16,7 +16,7 @@ public class BufferedInputStream extends FilterInputStream {
     @Override
     public int read() throws IOException {
         int x = super.read();
-        System.out.printf("按照[%s]的方式读取数据\n", FileInputStream.class.getName());
+        System.out.printf("按照[%s]的方式缓冲读取数据\n", FileInputStream.class.getName());
         return x;
     }
 }
