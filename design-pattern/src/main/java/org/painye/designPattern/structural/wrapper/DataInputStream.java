@@ -15,6 +15,6 @@ public class DataInputStream extends FilterInputStream{
 
     public void readLine() throws IOException {
         int x = read();
-        System.out.printf("按照[%s]的方式一行一行的读取数据\n", FileInputStream.class.getName());
+        System.out.printf("按照[%s]的方式一行一行的读取数据\n", DataInputStream.class.getName());
     }
 }
