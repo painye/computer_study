@@ -1,0 +1,335 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="第 1 页" id="z-slp2-iI3jYXG-RlBsJ">
+    <mxGraphModel dx="1428" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9i5fjosEsOoIim6lJFo6-7" value=":XXXAplication" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="545" y="225" width="100" height="1715" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-7" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-10" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;1、SpringApplication.run启动应用&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-7" target="9i5fjosEsOoIim6lJFo6-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-7" vertex="1">
+          <mxGeometry x="45" y="160" width="10" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-15" value=":AbstractBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="815" y="225" width="120" height="1715" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-15" vertex="1">
+          <mxGeometry x="55" y="160" width="10" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-20" value="spring上下文容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="175" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-40" value=":AbstractAutowireCapableBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1320" y="230" width="220" height="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="105" y="315" width="10" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-52" value="7、解析Husband的类，确保该类被正确加载&lt;div&gt;8、前置处理：调用BeanPostProcessor尝试&lt;/div&gt;&lt;div&gt;返回代理对象若有直接返回&lt;/div&gt;&lt;div&gt;9、doCreatBean()中进行正真的创建Bean:husband&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-55" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-56" value="10、创建出Husband对象husband" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="510" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-58" value="11、判断husband存在于singletonCurrentlyCreation&lt;div&gt;缓存中，是正在创建的bean。&lt;/div&gt;&lt;div&gt;将其加入到三级缓存singletonFactories中提前暴露&lt;/div&gt;&lt;div&gt;12、准备进入到populateBean方法中填充husband的&lt;/div&gt;&lt;div&gt;所有字段进行初始化&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="590" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-60" value="13、从husband的bean定义中获取到wife字段&lt;div&gt;14、使用代理准备注入wife字段，&lt;/div&gt;&lt;div&gt;从缓存中获取wife的bean&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-104" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="106" y="840" width="10" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-84" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="870" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-85" value="20、解析Wife的类，确保该类被正确加载&lt;div&gt;21、前置处理：调用BeanPostProcessor尝试&lt;/div&gt;&lt;div&gt;返回代理对象若有直接返回&lt;/div&gt;&lt;div&gt;22、doCreatBean()中进行正真的创建Bean:wife&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-86" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="950" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-87" value="23、创建出Wife对象wife" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="930" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-88" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="1030" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-89" value="24、判断wife存在于singletonCurrentlyCreation&lt;div&gt;缓存中，是正在创建的bean。&lt;/div&gt;&lt;div&gt;将其加入到三级缓存singletonFactories中提前暴露&lt;/div&gt;&lt;div&gt;25、准备进入到populateBean方法中填充wife的&lt;/div&gt;&lt;div&gt;所有字段进行初始化&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1010" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-90" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="1110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-91" value="26、从wife的bean定义中获取到husband字段&lt;div&gt;27、使用代理准备注入husband字段，&lt;/div&gt;&lt;div&gt;从缓存中获取wife的依赖husband&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1090" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-100" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="1320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-101" value="32、wife的依赖husband注入成功&lt;div&gt;33、bean:wife初始化完成&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-105" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="105" y="1430" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-106" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-40" vertex="1">
+          <mxGeometry x="110" y="1470" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-107" value="36、husband的依赖wife注入成功&lt;div&gt;37、bean:husband初始化完成&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-40" target="9i5fjosEsOoIim6lJFo6-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="9i5fjosEsOoIim6lJFo6-21" target="9i5fjosEsOoIim6lJFo6-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-25" value="2、refresh刷新整个上下文环境，&lt;div&gt;初始化所有不是@Lazy标注的Bean实例&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9i5fjosEsOoIim6lJFo6-24" vertex="1" connectable="0">
+          <mxGeometry x="0.0033" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-26" value="抽象Bean工厂" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="825" y="185" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-27" value=":DefaultSingletonBeanRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1045" y="225" width="200" height="1705" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-28" value="" style="html=1;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="95" y="160" width="10" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="100" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-37" value="4、一级缓存singletonObject中&lt;div&gt;没有发现husband该bean&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-27" target="9i5fjosEsOoIim6lJFo6-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="100" y="280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-39" value="5、在singletonsCurrentlyInCreation缓存&lt;div&gt;中加入该husband,表示husband正在创建中&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-27" target="9i5fjosEsOoIim6lJFo6-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="100" y="715" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-72" value="17、一级缓存singletonObject中&lt;div&gt;没有发现wife该bean&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-27" target="9i5fjosEsOoIim6lJFo6-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="695" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="100" y="795" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-74" value="18、在singletonsCurrentlyInCreation缓存&lt;div&gt;中加入该wife,表示wife正在创建中&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-27" target="9i5fjosEsOoIim6lJFo6-73" edge="1">
+          <mxGeometry x="-0.0105" relative="1" as="geometry">
+            <mxPoint x="105" y="775" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="805" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-97" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="9i5fjosEsOoIim6lJFo6-27" vertex="1">
+          <mxGeometry x="100" y="1245" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-98" value="30、三级缓存singletonFactories中发现&lt;div&gt;husband的工厂，通过&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;工厂拿到bean:husband。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;再将husband从三级缓存&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;中删除放到二级缓存&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;earlySingletonObjects中&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="9i5fjosEsOoIim6lJFo6-27" target="9i5fjosEsOoIim6lJFo6-97" edge="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="105" y="1225" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="1255" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="9i5fjosEsOoIim6lJFo6-23" target="9i5fjosEsOoIim6lJFo6-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-33" value="3、先查三级缓存发现都没有对应的&lt;div&gt;bean：husband,&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;调用&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getSingleton(husband,singletonFactory)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;准备创建&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;bean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9i5fjosEsOoIim6lJFo6-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.2032" relative="1" as="geometry">
+            <mxPoint x="27" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-46" value="单例Bean的注册中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-47" value="创建Bean的抽象工厂" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="185" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-50" value="6、createBean()创建husband" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.2" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="1150" y="560.0000000000002" as="sourcePoint" />
+            <mxPoint x="1425" y="560.0000000000002" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-64" value="15、getBean(wife)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1425" y="870.0000000000002" as="sourcePoint" />
+            <mxPoint x="880" y="870.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="910" as="sourcePoint" />
+            <mxPoint x="1140" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-76" value="16、先查三级缓存发现都没有对应的&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;bean：wife,调用&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;getSingleton(husband,singletonFactory)&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;准备创建&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;bean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9i5fjosEsOoIim6lJFo6-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.2032" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-95" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9i5fjosEsOoIim6lJFo6-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.019" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-77" value="19、createBean()创建wife" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.2034" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="1150" y="1070.0000000000002" as="sourcePoint" />
+            <mxPoint x="1425" y="1070.0000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-93" value="28、getBean(husband)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1425" y="1390.0000000000002" as="sourcePoint" />
+            <mxPoint x="880" y="1390.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-96" value="29、查三级缓存中有没有husband的bean" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="9i5fjosEsOoIim6lJFo6-28" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="880" y="1440" as="sourcePoint" />
+            <mxPoint x="960" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-99" value="31、返回husband" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="9i5fjosEsOoIim6lJFo6-104" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1150" y="1520" as="sourcePoint" />
+            <mxPoint x="1420" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-102" value="34、将bean：wife放入到一级缓存之中" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1425" y="1600.0000000000002" as="sourcePoint" />
+            <mxPoint x="1150" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-103" value="35、从缓存中拿到wife" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0029" width="80" relative="1" as="geometry">
+            <mxPoint x="1150" y="1680" as="sourcePoint" />
+            <mxPoint x="1425" y="1680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-110" value="38、将bean：husband放入到一级缓存之中" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1425" y="1760.0000000000002" as="sourcePoint" />
+            <mxPoint x="1150" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-111" value="39、初始化husband和wife成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.004" width="80" relative="1" as="geometry">
+            <mxPoint x="1140" y="1880" as="sourcePoint" />
+            <mxPoint x="880" y="1880" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9i5fjosEsOoIim6lJFo6-112" value="40、创建bean完成" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="9i5fjosEsOoIim6lJFo6-21" edge="1">
+          <mxGeometry x="0.004" width="80" relative="1" as="geometry">
+            <mxPoint x="870" y="1900" as="sourcePoint" />
+            <mxPoint x="610" y="1900" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
