@@ -1,4 +1,4 @@
-package org.painye.demo.proxy;
+package org.painye.demo.proxy.jdk;
 
 /**
  * @author painye
