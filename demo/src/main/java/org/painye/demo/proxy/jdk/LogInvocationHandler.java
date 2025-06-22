@@ -6,7 +6,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * @author painye
- * @Description 体制代理类
+ * @Description 日志代理
  * @create 2025-06-22 10:08
  */
 public class LogInvocationHandler implements InvocationHandler {

@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author painye
- * @Description
+ * @Description 日志代理
  * @create 2025-06-22 10:38
  */
 public class LogMethodInterceptor implements MethodInterceptor {
